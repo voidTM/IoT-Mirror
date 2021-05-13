@@ -20,9 +20,10 @@ var MMSocket = function (moduleName) {
 	if (typeof config !== "undefined" && typeof config.basePath !== "undefined") {
 		base = config.basePath;
 	}
-	self.socket = io("/" + self.moduleName, {
-		path: base + "socket.io"
-	});
+	self.socket = io("/" + self.moduleName);
+	// self.socket = io("/" + self.moduleName, {
+	// 	path: base + "socket.io"
+	// });
 	var notificationCallback = function () {};
 
 	var onevent = self.socket.onevent;

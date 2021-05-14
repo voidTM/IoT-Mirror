@@ -143,7 +143,7 @@ var config = {
 		{
 			module: 'MMM-Remote-Control',
 			// uncomment the following line to show the URL of the remote control on the mirror
-			position: 'bottom_left',
+			// position: 'bottom_left',
 			// you can hide this module afterwards from the remote control itself
 			config: {
 				customCommand: {},  // Optional, See "Using Custom Commands" below

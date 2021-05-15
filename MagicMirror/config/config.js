@@ -119,7 +119,6 @@ var config = {
 					{
 						url: 'https://calendar.google.com/calendar/ical/3osf8bb2v48sv0gg2m06u8ei8oehe48d%40import.calendar.google.com/public/basic.ics', //add your own calendar
 						symbol: 'calendar',
-						maximumEntries: 5,
 					}
 				]
 			}
@@ -156,19 +155,19 @@ var config = {
 				// classes: {} // Optional, See "Custom Classes" below
 			}
 		},
-		// {
-		// 	module: 'MMM-awesome-alexa',
-		// 	position: 'bottom_bar',
-		// 	config: {
-		// 		wakeWord: 'Alexa',
-		// 		clientId: 'amzn1.application-oa2-client.ae5dc85b09d74ca5b974a12b32714870',
-		// 		clientSecret: 'dd623e966161b5a4330e21a4846588fb33ec35582b21559db87dc250eac7aef0',
-		// 		deviceId: 'PiMirror',
-		// 		refreshToken: 'Atzr|IwEBIE3SyJEXIlGazIGdKWr58PdRDBsD6wA23CMFWTmDoa8EawUVfhpaL-5oDhY7cv3F7HNDZyGBBHFh9MdJ32wF47QLtaePvdMeK3SSQEWzP4Im_z3dPdFFNdFDZ7Pj-9Osa5yvfoqbX-KoJ4ZAufX73eTqTo4g-PbqyZrvbSjJ86m3y1hTaIRSKRqrDBy05EaTzNVJtaLwrqHEDihbZvGJhd-EdR3CtVicDqxgaJhwv4LfVW6JAbrvEJoyi2shN9JIlXgc2GFMb2n7Zl46kkCFe2cknxyRxn6m3Gwjt0fpUApzm1z6sy9_AIKsYuKcGiRKEt0iVynzlW1nv7RbwPaKGeOz',
-		// 		lite: false,
-		// 		isSpeechVisualizationEnabled: true
-		// 	}
-		// }
+		{
+			module: 'MMM-awesome-alexa',
+			position: 'bottom_bar',
+			config: {
+				wakeWord: 'Alexa',
+				clientId: 'amzn1.application-oa2-client.ae5dc85b09d74ca5b974a12b32714870',
+				clientSecret: 'dd623e966161b5a4330e21a4846588fb33ec35582b21559db87dc250eac7aef0',
+				deviceId: 'PiMirror',
+				refreshToken: 'Atzr|IwEBIE3SyJEXIlGazIGdKWr58PdRDBsD6wA23CMFWTmDoa8EawUVfhpaL-5oDhY7cv3F7HNDZyGBBHFh9MdJ32wF47QLtaePvdMeK3SSQEWzP4Im_z3dPdFFNdFDZ7Pj-9Osa5yvfoqbX-KoJ4ZAufX73eTqTo4g-PbqyZrvbSjJ86m3y1hTaIRSKRqrDBy05EaTzNVJtaLwrqHEDihbZvGJhd-EdR3CtVicDqxgaJhwv4LfVW6JAbrvEJoyi2shN9JIlXgc2GFMb2n7Zl46kkCFe2cknxyRxn6m3Gwjt0fpUApzm1z6sy9_AIKsYuKcGiRKEt0iVynzlW1nv7RbwPaKGeOz',
+				lite: false,
+				isSpeechVisualizationEnabled: true
+			}
+		}
 	]
 };
 

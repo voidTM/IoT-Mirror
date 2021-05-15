@@ -119,6 +119,7 @@ var config = {
 					{
 						url: 'https://calendar.google.com/calendar/ical/3osf8bb2v48sv0gg2m06u8ei8oehe48d%40import.calendar.google.com/public/basic.ics', //add your own calendar
 						symbol: 'calendar',
+						maximumEntries: 5,
 					}
 				]
 			}

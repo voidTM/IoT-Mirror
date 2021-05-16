@@ -169,6 +169,13 @@ var config = {
 		// 		isSpeechVisualizationEnabled: true
 		// 	}
 		// }
+		{
+			module: "MMM-Stock",
+			position: "bottom_left",
+			config: {
+				companies: ["MSFT", "GOOG", "FB", "AAPL"]
+			}
+		},
 	]
 };
 
